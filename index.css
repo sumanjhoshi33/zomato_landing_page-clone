@@ -6,9 +6,43 @@
 }
 .hero_section{
     background-image: url(/images/heroSectionBackground.png);
+    min-height: 60vh;
+    background-position: center;
+    background-size:cover;
+    color: white; 
+
 }
 .nav_bar{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding:16px 40px ;
 
+}
+.nav_bar a{
+    text-decoration:none;
+    color:white;
+
+}
+.nav_bar_menu_coontainer{
+    display:flex;
+    gap:20px;
+}
+.nav_bar_menu_coontainer .icon{
+    height: 30px;
+    width: 30px;
+    border:1px solid white;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+/* media quier */
+@media only screen and(max-width:600px) {
+    .nav_bar_menu_coontainer .icon  {
+        
+    }
+    
 }
